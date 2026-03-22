@@ -19,8 +19,9 @@ function updateCountdown(id, targetDateString) {
 }
 
 function refreshCountdowns() {
-  updateCountdown("neurips-countdown", "2026-05-15T13:00:00+09:00");
-  updateCountdown("eccv-countdown", "2026-03-30T23:59:00+09:00");
+  updateCountdown("ACMMM-countdown", "2026-04-01T00:00:00+09:00");
+  updateCountdown("neurips-countdown", "2026-05-06T00:00:00+09:00");
+  updateCountdown("IWAI-countdown", "2026-06-07T00:00:00+09:00");
   updateCountdown("next-countdown", "2026-09-01T00:00:00+09:00");
 }
 
