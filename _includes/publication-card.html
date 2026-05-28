@@ -1,0 +1,46 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<article class="publication-card{% if post.header.teaser %} publication-card--has-thumb{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+  {% if post.header.teaser %}
+    <a class="publication-card__thumb" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-hidden="true" tabindex="-1">
+      <img src="{{ base_path }}{{ post.header.teaser }}" alt="" loading="lazy" itemprop="image">
+    </a>
+  {% endif %}
+
+  <div class="publication-card__body">
+    <h2 class="publication-card__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    <p class="publication-card__venue">
+      {% if post.status %}
+        {{ post.status }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+      {% else %}
+        {{ post.venue }}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+      {% endif %}
+    </p>
+
+    {% if post.excerpt %}
+      <p class="publication-card__excerpt">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p class="publication-card__citation">{{ post.citation }}</p>
+    {% endif %}
+  </div>
+
+  <div class="publication-card__meta">
+    {% if post.status %}
+      <span class="publication-card__badge">Under Review</span>
+    {% else %}
+      <span class="publication-card__badge">{{ post.date | date: "%Y" }}</span>
+    {% endif %}
+    <a class="publication-card__link" href="{{ base_path }}{{ post.url }}" rel="permalink">Details</a>
+  </div>
+</article>

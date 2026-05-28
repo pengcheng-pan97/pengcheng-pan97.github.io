@@ -36,6 +36,10 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.status %}
+          <p>{{ page.status }}{% if page.date %}, {{ page.date | date: "%Y" }}{% endif %}</p>
+        {% elsif page.collection == 'publications' and page.venue and page.date %}
+          <p>Presented at <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -45,6 +49,9 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.header.teaser %}
+          <p class="publication-figure"><img src="{{ base_path }}{{ page.header.teaser }}" alt="{{ page.title | markdownify | strip_html | strip_newlines }}" itemprop="image"></p>
+        {% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}

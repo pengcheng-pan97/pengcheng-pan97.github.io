@@ -1,152 +1,196 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Pengcheng Pan",
+    "email": "",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://pengcheng-pan97.github.io",
+    "summary": "Project Researcher, IRCN, The University of Tokyo. Human-Centered Active Vision | Hard Attention | Brain-inspired AI.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Tokyo",
+      "countryCode": "JP",
+      "region": "Japan"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "pengcheng-pan97",
+        "url": "https://github.com/pengcheng-pan97"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "International Research Center for Neurointelligence (IRCN), The University of Tokyo",
+      "position": "Project Researcher",
+      "startDate": "2026-05",
+      "endDate": "",
+      "summary": "Research on brain-inspired AI, active vision, predictive coding, cognitive feelings, and multimodal learning."
+    },
+    {
+      "name": "Corpy & Co., Inc.",
+      "position": "Machine Learning Engineer Intern",
+      "startDate": "2023",
+      "endDate": "2024",
+      "summary": "Implemented and evaluated machine learning models, analyzed experimental results, and built literature information extraction pipelines using the Semantic Scholar API and OpenAI API."
+    },
+    {
+      "name": "Tata Consultancy Services Japan",
+      "position": "Social Robot Research Intern",
+      "startDate": "2022",
+      "endDate": "2022",
+      "summary": "Worked on multimodal human-robot interaction using facial expression recognition, robot vision, dialogue generation, and generative AI tools."
+    },
+    {
+      "name": "Chulalongkorn University",
+      "position": "Research Intern",
+      "startDate": "2023-02",
+      "endDate": "2023-03",
+      "summary": "Studied model interpretability for audio recognition using YAMNet and Grad-CAM visualization."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "The University of Tokyo",
+      "area": "Information Science and Technology",
+      "studyType": "Ph.D.",
+      "startDate": "2023",
+      "endDate": "2026",
+      "gpa": null,
+      "courses": [
+        "Department of Mechano-Informatics, Graduate School of Information Science and Technology",
+        "Dissertation: Human-Inspired, Affect Sensitive Hard Attention Model Yields Human-Like Gaze in Image Classification."
+      ]
+    },
+    {
+      "institution": "The University of Tokyo",
+      "area": "Information Science and Technology",
+      "studyType": "M.S.",
+      "startDate": "2021",
+      "endDate": "2023",
+      "gpa": null,
+      "courses": [
+        "Department of Mechano-Informatics, Graduate School of Information Science and Technology",
+        "Thesis: Abstraction and conceptualization of spatial information through task-specific active perception."
+      ]
+    },
+    {
+      "institution": "Jiangnan University",
+      "area": "Mechanical and Electronic Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2015",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Tohoku University",
+      "area": "School of Engineering, Department of Mechanical and Aerospace Engineering",
+      "studyType": "Exchange Student / Research Student",
+      "startDate": "2018",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research areas",
+      "keywords": [
+        "computer vision",
+        "active vision",
+        "hard attention",
+        "human-centered AI",
+        "cognitive science",
+        "neuroscience-inspired AI",
+        "multimodal AI",
+        "reinforcement learning"
+      ]
+    },
+    {
+      "name": "Implementation",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "Pandas",
+        "scikit-learn",
+        "Matplotlib",
+        "Git",
+        "Docker",
+        "Linux",
+        "Jupyter",
+        "CUDA-based deep learning experiments"
+      ]
+    },
+    {
+      "name": "Evaluation and analysis",
+      "keywords": [
+        "classification accuracy",
+        "scanpath analysis",
+        "DTW",
+        "ScanMatch",
+        "NSS",
+        "AUC",
+        "GCS",
+        "fixation distribution analysis",
+        "visualization"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Active vision and human-like scanpaths",
+      "keywords": [
+        "gaze behavior",
+        "hard attention",
+        "brain-inspired AI",
+        "interpretable visual recognition"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Debiasing Central Fixation Confounds Reveals a Peripheral 'Sweet Spot' for Human-like Scanpaths in Hard-Attention Vision",
+      "publisher": "Annual Meeting of the Cognitive Science Society (CogSci 2026)",
+      "releaseDate": "2026-07-22",
+      "website": "",
+      "summary": "Poster with full paper publication, Rio de Janeiro, Brazil, July 22-25, 2026."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Emergence of Fixational and Saccadic Movements in a Multi-Level Recurrent Attention Model for Vision",
+      "publisher": "32nd International Conference on Neural Information Processing (ICONIP 2025)",
+      "releaseDate": "2025-11-20",
+      "website": "",
+      "summary": "Oral paper, Okinawa, Japan, November 20-24, 2025."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Bayesian Glimpse Control Boosts Active Vision RL on Atari Pong",
+      "publisher": "6th International Workshop on Active Inference (IWAI 2025)",
+      "releaseDate": "2025-10-28",
+      "website": "",
+      "summary": "Poster and spotlight, Montreal, Canada, October 28-30, 2025."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "EVA: Human-Aligned Hard-Attention Vision",
+      "category": "active vision",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/pengcheng-pan97/EVA",
+      "description": "A hard-attention active vision model for recognition performance and human-like scanpath behavior."
+    },
+    {
+      "name": "MRAM: Multi-Level Recurrent Attention Model",
+      "category": "active vision",
+      "date": "",
+      "url": "https://github.com/pengcheng-pan97/MRAM",
+      "description": "A recurrent hard-attention model for active visual perception and emergent gaze dynamics."
     }
   ]
 }

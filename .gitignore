@@ -15,6 +15,20 @@ package-lock.json
 # Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
+.tools/
+
+# Ignore local Jekyll preview logs
+.jekyll-serve*.log
+.start-*.err
+.start-*.log
+.start-*.out
+
+# Ignore local working assets that should not be published
+picture.jpg
+picture2.jpg
+微信图片_*.jpg
+research_achievement.docx
+task.md
 
 # Ignore folders related to IDEs
 .vscode/

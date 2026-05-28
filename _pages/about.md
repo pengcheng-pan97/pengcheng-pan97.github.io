@@ -1,56 +1,140 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Pengcheng Pan"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a Project Researcher at the International Research Center for Neurointelligence (IRCN), The University of Tokyo. I received my Ph.D. in Information Science and Technology from The University of Tokyo in 2026.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research focuses on human-centered active vision, hard attention, and brain-inspired AI. I study vision models that actively acquire visual evidence through sequential gaze-like observations, rather than processing the entire image passively in a single step. My broader goal is to build AI systems whose perception, attention, and decision processes are more interpretable, controllable, and informed by human perceptual behavior.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## Research Interests
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- Active vision and hard attention
+- Human-like scanpaths and gaze behavior
+- Brain-inspired and cognitive AI models
+- Interpretable and privacy-aware visual recognition
+- Multimodal AI and vision-language systems
+- Predictive coding and cognitive feelings
+- Human-AI interaction and human-centered AI
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+## Research Profile
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+My doctoral research investigated hard-attention vision models inspired by human eye movements. These models observe local image regions sequentially, update internal recurrent states, and decide where to look next. I evaluate such models not only by classification accuracy, but also by their scanpath behavior, fixation patterns, spatial exploration, and similarity to human gaze data.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+This line of work connects computer vision, reinforcement learning, cognitive science, and neuroscience. It also provides a practical route toward interpretable and privacy-aware AI systems, where the visual evidence used by a model can be inspected, audited, and intervened on during inference.
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Current Position
 
-**Markdown generator**
+**Project Researcher**, International Research Center for Neurointelligence (IRCN), The University of Tokyo<br>
+May 2026 - Present
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+I work on AI models inspired by cognitive science and neuroscience, with a focus on visual attention, active perception, predictive coding, cognitive feelings, and multimodal learning.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<h2 class="profile-section-title">Experience</h2>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<div class="profile-timeline">
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/University_of_Tokyo.png" alt="The University of Tokyo logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Project Researcher</span>
+      <span class="profile-timeline__org">IRCN, The University of Tokyo</span>
+      <div class="profile-timeline__detail">Research on brain-inspired AI, active vision, predictive coding, cognitive feelings, and multimodal learning.</div>
+    </div>
+    <span class="profile-timeline__date">2026-Present</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon profile-timeline__icon--tight"><img src="/images/logos/corpy.jpg" alt="Corpy & Co. logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Machine Learning Engineer Intern</span>
+      <span class="profile-timeline__org">Corpy & Co., Inc.</span>
+      <div class="profile-timeline__detail">Implemented and evaluated machine learning models, analyzed experimental results, and built literature information extraction pipelines using the Semantic Scholar API and OpenAI API.</div>
+    </div>
+    <span class="profile-timeline__date">2023-2024</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/TCSJ.jpg" alt="Tata Consultancy Services Japan logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Social Robot Research Intern</span>
+      <span class="profile-timeline__org">Tata Consultancy Services Japan</span>
+      <div class="profile-timeline__detail">Worked on multimodal human-robot interaction using facial expression recognition, robot vision, dialogue generation, and generative AI tools.</div>
+    </div>
+    <span class="profile-timeline__date">2022</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/Chulalongkorn_University.png" alt="Chulalongkorn University logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Research Intern</span>
+      <span class="profile-timeline__org">Chulalongkorn University</span>
+      <div class="profile-timeline__detail">Studied model interpretability for audio recognition using YAMNet and Grad-CAM visualization.</div>
+    </div>
+    <span class="profile-timeline__date">Feb-Mar 2023</span>
+  </div>
+</div>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<h2 class="profile-section-title">Education</h2>
+
+<div class="profile-timeline">
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/University_of_Tokyo.png" alt="The University of Tokyo logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Ph.D. in Information Science and Technology</span>
+      <span class="profile-timeline__org">The University of Tokyo</span>
+      <div class="profile-timeline__detail">Department of Mechano-Informatics, Graduate School of Information Science and Technology. Dissertation: <em>Human-Inspired, Affect Sensitive Hard Attention Model Yields Human-Like Gaze in Image Classification.</em></div>
+    </div>
+    <span class="profile-timeline__date">2023-2026</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/University_of_Tokyo.png" alt="The University of Tokyo logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">M.S. in Information Science and Technology</span>
+      <span class="profile-timeline__org">The University of Tokyo</span>
+      <div class="profile-timeline__detail">Department of Mechano-Informatics, Graduate School of Information Science and Technology. Thesis: <em>Abstraction and conceptualization of spatial information through task-specific active perception.</em></div>
+    </div>
+    <span class="profile-timeline__date">2021-2023</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/Tohoku_University.png" alt="Tohoku University logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Graduate Student</span>
+      <span class="profile-timeline__org">Tohoku University</span>
+      <div class="profile-timeline__detail">Department of Quantum Science and Energy Engineering, School of Engineering.</div>
+    </div>
+    <span class="profile-timeline__date">2019-2021</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/Tohoku_University.png" alt="Tohoku University logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">Exchange Student / Research Student</span>
+      <span class="profile-timeline__org">Tohoku University</span>
+      <div class="profile-timeline__detail">School of Engineering, Department of Mechanical and Aerospace Engineering.</div>
+    </div>
+    <span class="profile-timeline__date">2018-2019</span>
+  </div>
+  <div class="profile-timeline__item">
+    <span class="profile-timeline__icon"><img src="/images/logos/Jiangnan_University.png" alt="Jiangnan University logo"></span>
+    <div class="profile-timeline__content">
+      <span class="profile-timeline__title">B.Eng. in Mechanical and Electronic Engineering</span>
+      <span class="profile-timeline__org">Jiangnan University</span>
+    </div>
+    <span class="profile-timeline__date">2015-2019</span>
+  </div>
+</div>
+
+## Selected Projects
+
+- [EVA: Human-Aligned Hard-Attention Vision](/portfolio/eva/)
+- [MRAM: Multi-Level Recurrent Attention Model](/portfolio/mram/)
+- [Peripheral Sweet Spot for Human-like Scanpaths](/portfolio/gcs-sweet-spot/)
+- [Human-in-the-Loop Hard Attention for Privacy-Aware Active Vision](/portfolio/hitl-hard-attention/)
+
+## Selected Publications
+
+- Pan Pengcheng, Shogo Yonekura, Yasuo Kuniyoshi. "Debiasing Central Fixation Confounds Reveals a Peripheral 'Sweet Spot' for Human-like Scanpaths in Hard-Attention Vision." CogSci 2026.
+- Pan Pengcheng, Shogo Yonekura, Yasuo Kuniyoshi. "Emergence of Fixational and Saccadic Movements in a Multi-Level Recurrent Attention Model for Vision." ICONIP 2025.
+- Pan Pengcheng, Shogo Yonekura, Yasuo Kuniyoshi. "Bayesian Glimpse Control Boosts Active Vision RL on Atari Pong." IWAI 2025, Poster & Spotlight.
+- Pan Pengcheng, Shogo Yonekura, Yasuo Kuniyoshi. "Connecting Dense and Sparse Networks in Recurrent Independent Mechanisms." RSJ 2022, Oral.
+- Pengcheng Pan, Shogo Yonekura, Yasuo Kuniyoshi. "Human-in-the-Loop Hard Attention for Privacy-Aware Active Vision." JSAI 2026.
